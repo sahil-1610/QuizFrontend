@@ -1,0 +1,44 @@
+/* Custom styles for the modal */
+#loginModal {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+}
+
+.modal-content {
+  background-color: #6686b8; /* Background color for the modal content */
+  border-radius: 10px; /* Rounded corners for the modal */
+}
+
+.modal-header {
+  background-color: #5f8fc3; /* Header background color */
+  color: #c62f2f79; /* Header text color */
+  border-top-left-radius: 10px; /* Rounded top-left corner */
+  border-top-right-radius: 10px; /* Rounded top-right corner */
+}
+
+.modal-body {
+  padding: 25px; /* Add padding to the body content */
+}
+
+.modal-footer {
+  background-color: #f5f5f5; /* Footer background color */
+  border-bottom-left-radius: 10px; /* Rounded bottom-left corner */
+  border-bottom-right-radius: 10px; /* Rounded bottom-right corner */
+  text-align: center; /* Center align the buttons */
+  padding: 40px 0; /* Add padding to the bottom */
+}
+/* Custom styles for form elements */
+#username, #login-email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.img-centered {
+  max-height: 200px; /* Adjust the max height as needed */
+  max-width: 800px;  /* Adjust the max width as needed */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
